@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="twitter.crawler.WelcomeScreen">
+    <children>
+        <Button fx:id="btn1" layoutX="225.0" layoutY="65.0" onAction="#goToScreen2" text="Click Me!" />
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <Button fx:id="btn2" layoutX="14.0" layoutY="65.0" mnemonicParsing="false" onAction="#goToScreen3" text="Button" AnchorPane.bottomAnchor="108.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="247.0" AnchorPane.topAnchor="65.0" />
+    </children>
+</AnchorPane>
