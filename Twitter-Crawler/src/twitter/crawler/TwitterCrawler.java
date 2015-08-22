@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 package twitter.crawler;
-
+ 
 import javafx.application.Application;
 import javafx.scene.Group;
 import javafx.scene.Scene;
@@ -17,11 +17,11 @@ import javafx.stage.Stage;
 public class TwitterCrawler extends Application {
     
     public static String screen1ID = "WelcomeScreen";
-    public static String screen1File = "WelcomeScreen.fxml";
+    public static String screen1File = "/FXMLDocuments/WelcomeScreen.fxml";
     public static String screen2ID = "CredentialsScreen";
-    public static String screen2File = "CredentialsScreen.fxml";
+    public static String screen2File = "/FXMLDocuments/CredentialsScreen.fxml";
     public static String screen3ID = "LocationScreen";
-    public static String screen3File = "LocationScreen.fxml";    
+    public static String screen3File = "/FXMLDocuments/LocationScreen.fxml";    
     
     
     
